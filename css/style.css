@@ -1,5 +1,5 @@
 body {
-    font-family: helvetica;
+    font-family: arial;
 }
 
 /* HEADER SECTION STYLING */
@@ -12,6 +12,8 @@ body {
     margin-top: 15px;
     margin-right: 5px;
     margin-left: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
 }
 
 a {
@@ -61,8 +63,9 @@ a {
 
 /* MAIN SECTION STYLING */
 main {
-    margin-top: 28px;
+    margin-top: 20px;
 }
+
 
 #HeaderTitle {
     display: flex;
@@ -71,14 +74,21 @@ main {
     font-size: large;
 }
 
+#headerTitle h3 {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+
 #subtitle {
+    font-size: small;
     color: grey;
 }
 
 #mainarticle {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 5px;
 }
 
 #article {
@@ -314,7 +324,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 50px;
-
+    border-top: 1px solid black;
 }
 
 .logo-footer img {
